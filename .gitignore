@@ -1,0 +1,6 @@
+venv/
+.env
+data/model.ckpt*
+__pycache__
+.DS_Store
+configmodelbit.py
