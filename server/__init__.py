@@ -8,7 +8,7 @@ cors = CORS()
 def create_app():
     app = APIFlask(
         __name__,
-        title="Image-to-Image Translation API",
+        title="Image-to-Image Transformations API",
     )
 
     app.config.from_pyfile("config.py")
